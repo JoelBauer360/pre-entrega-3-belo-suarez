@@ -1,0 +1,21 @@
+{
+  "name": "pre-entrega3-belo-suarez",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/prueba.scss css/prueba.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoelBauer360/pre-entrega2-belo-suarez.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoelBauer360/pre-entrega2-belo-suarez/issues"
+  },
+  "homepage": "https://github.com/JoelBauer360/pre-entrega2-belo-suarez#readme"
+}
